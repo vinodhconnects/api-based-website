@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(71, 68, 68) ;
+}
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkblue;
+    background-color: aliceblue;
+}
+
+#quotes-for-the-day
+{
+    margin-top: 50px;
+    margin-left: 20%;
+    width: 60%;
+    height: 300px;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 10px gray;
+    font-family: courier;
+    color: darkblue;
+}
