@@ -13,6 +13,7 @@ async function quoteRead()
 }
 
 quoteRead()
+setInterval(quoteRead,5000)
 /*response=fetch("https://api.quotable.io/random")
 //return of fetch is promise
 //unless you specify method name in fetch function, it
