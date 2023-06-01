@@ -23,7 +23,7 @@ let response=await fetch("https://api.quotable.io/search/authors?query="+searchS
        let authors = authorData.results
        let code=""
        for(let author of authors){
-            code+="<div class='author-name'"+author.name+"</div>"
+            code+="<div class='author-name'>"+author.name+"</div>"
        }
        document.getElementById("author-result").innerHTML=code
 }
