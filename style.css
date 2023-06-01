@@ -31,3 +31,13 @@ input[type="text"]{
     border: 3px solid darkblue;
     margin: 5px;
 }
+
+.author-name{
+    border: 2px solid lightgray;
+    background-color: lightblue;
+    color: rgb(50, 49, 49);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    float: left;
+}
