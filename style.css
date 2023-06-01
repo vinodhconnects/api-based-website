@@ -1,14 +1,14 @@
 body {
     background-color: rgb(71, 68, 68) ;
 }
-h1{
+h1, h3{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     color: darkblue;
     background-color: aliceblue;
 }
 
-#quotes-for-the-day
+#quotes-for-the-day, #author-box
 {
     margin-top: 50px;
     margin-left: 20%;
@@ -19,4 +19,15 @@ h1{
     font-family: courier;
     color: darkblue;
     padding: 30px;
+}
+#author-result{
+    width: 100%;
+    overflow: hidden;
+}
+input[type="text"]{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border: 3px solid darkblue;
+    margin: 5px;
 }
